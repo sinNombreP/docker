@@ -15,7 +15,7 @@ import java.util.Date;
 @RestController
 public class demoCollltor {
 
-    @RequestMapping("hello1")
+    @RequestMapping("hello")
     public Date hello(){
         return  new Date();
     }
